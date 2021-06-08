@@ -1,0 +1,95 @@
+
+  body
+   {
+       background-color: teal;
+     }
+
+  h3
+/* font for signup*/
+     {
+
+       font-family:Georgia;
+       font-size: 20pt;
+     }
+/* daily journal font*/
+  h1
+  {
+    
+    color:lightcyan;
+    font-size:40pt;
+    font-family:Monotype corsiva;
+
+
+  }
+  p
+  {
+    font-family:Monotype corsiva;
+    color:lightblue;
+    font-size:16pt;
+
+   }
+
+/*sign up formcss*/
+input[type=text] /* name & lastname*/
+{
+  width: 100 %;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], [type=password]
+{
+  width: 100 %;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] /* for submit */
+{
+  width: 100 %;
+  background-color: #AFEEEE;
+  color: darkblue;
+  padding:14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type=submit]:hover
+{
+  background-color: lightgrey;
+}
+div {
+border-radius: 5px;
+width: 40%;
+text-align: center;
+background-color: #f0fff0;
+padding: 50px;
+margin-top: 10px;
+margin-left: 25%;
+margin-right:25%;
+
+}
+
+.form-control:hover {
+background-color:lightgreen;
+font-family:verdana;
+
+}
+
+.Nfont{
+font-size:20pt;
+font-family:verdana;
+
+}

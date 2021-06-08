@@ -1,0 +1,95 @@
+
+  body{
+    background-color:#BF6B04;
+  }
+/* lightseagreen */
+
+  *{
+    box-sizing:border-box;
+    padding:10px;
+  }
+
+h1{
+  text-align: center;
+  font-size:30px;
+ 
+  color: white;
+  font-family:Monotype corsiva;
+}
+
+}
+h2{
+  font-family:Monotype corsiva;
+  text-align: center;
+  color: white;
+}
+
+h3{
+  text-align: center;
+  color:brown;
+}
+textarea{
+  resize:none;
+  color: brown;
+  background-color: #ffd8;
+  margin: 20px;
+}
+
+
+.input-group{
+  size: 10px;
+  width:300px;
+  padding:30px;
+
+
+}
+
+input[type=text] {
+  padding: 10px;
+  color: brown;
+  margin: 20px;
+
+}
+
+.column {
+  align-self: center;
+  width: 50%;
+  padding: 20px;
+  border: 1px solid white;
+  margin-left: 25%;
+  height: 300px;
+
+
+}
+
+.row{
+
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)),url(pic3.jpg);
+  background-size: contain;
+  background-position: center;
+  padding: 50px;
+}
+
+button[type=submit]:hover
+{
+  background-color: lightgrey;
+}
+
+
+button[type=submit]
+ /* for submit */
+{
+  width:20%;
+  background-color: #AFEEEE;
+  color: darkblue;
+  padding:14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 25px;
+  align:center;
+
+}
