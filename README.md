@@ -1,1 +1,1 @@
-# poojaJournal
+# Daily-Journal
